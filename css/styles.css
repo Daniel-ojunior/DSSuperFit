@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-light-gray: #CCCCCC;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+
+}
+
+header{
+
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.nav-content{
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container{
+
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a, a:hover{
+
+    color: unset;
+    text-decoration: none;
+}
+
+.nav-social{
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-social img {
+
+    padding: 10px;
+}
+
+.nav-content h1 {
+
+   font-size: 18px;
+
+}
+
+#place{
+
+    background-color: var(--color-blue);
+    height: 418px;
+    display: flex;
+    padding: 20px;
+}
+
+#place h2{
+
+    font-size: 32px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+
+}
+
+.place-card{
+
+    background-color: var(--color-light-gray);
+    height: 127px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.place-card h3 {
+
+    font-size: 20px;
+}
+
+.place-card p {
+
+    font-size: 14px;
+}
+
+#modalities{
+
+    height: 880px;
+    background-color: var(--color-white);
+    display: flex;
+    padding: 20px;
+}
+
+#modalities h2{
+
+    color: var(--color-red);
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.modalities-card{
+
+    height: 106px;
+    background-color: var(--color-blue);
+    padding: 20px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+footer{
+
+    height: 262px;
+    background-color: var(--color-black);
+    display: flex;
+    color: var(--color-white);
+    padding: 60px 0;
+
+
+}
+
+.footer-content{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.information-content{
+
+    text-align: center;
+}
+
+.social-content{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-content img{
+
+    padding-right: 10px;
+}
+
+.links {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
